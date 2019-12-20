@@ -65,9 +65,6 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-# add the following information to the top level of programmer_hash
-# 
-
 	programmer_hash = 
  		    {   
 		    :yukihiro_matsumoto => {
@@ -87,8 +84,6 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
-    
 end
 
 def changing_alan
@@ -110,6 +105,8 @@ def changing_alan
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
      
+     programmer_hash[:alan_kay][:known_for]["GUI"]
+     return programmer_hash
      
 end
 
